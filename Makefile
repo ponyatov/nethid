@@ -32,6 +32,8 @@ RUSTC   = $(CAR)/rucstc
 # \ src
 Y += $(MODULE).metaL.py metaL.py
 S += $(Y)
+R += $(shell find src -type f -regex ".+.rs$$")
+S += $(R) Cargo.toml
 # / src
 
 # \ all
@@ -62,7 +64,7 @@ watch:
 .PHONY: doxy
 doxy:
 	rm -rf docs ; doxygen doxy.gen 1>/dev/null
-	rm -rf target/doc ; $(CARGO) doc --no-deps
+	rm -rf target/doc ; $(CARGO) doc --no-deps && cp -r target/doc docs/rust
 
 .PHONY: doc
 doc:
@@ -103,6 +105,7 @@ dev:
 	git checkout $@
 	git pull -v
 	git checkout ponymuck -- $(MERGE)
+	$(MAKE) doxy
 
 .PHONY: release
 release:

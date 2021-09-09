@@ -1,0 +1,4 @@
+var searchIndex = JSON.parse('{\
+"nethid":{"doc":"Virtual HID daemon (network remote control)","t":[3,17,17,12,11,11,12,11,5,12,12,11,5,11,12,0,11,11,11,12,12,12],"n":["Game","H","W","argv","borrow","borrow_mut","events","from","game_loop","h","icon","into","main","new","sdl","test","try_from","try_into","type_id","video","w","window"],"q":["nethid","","","","","","","","","","","","","","","","","","","","",""],"d":["","","","","","","","","","","","","program entry point","","","","","","","","",""],"i":[0,0,0,1,1,1,1,1,0,1,1,1,0,1,1,0,1,1,1,1,1,1],"f":[null,null,null,null,[[]],[[]],null,[[]],[[["string",3]]],null,null,[[]],[[]],[[["string",3]]],null,null,[[],["result",4]],[[],["result",4]],[[],["typeid",3]],null,null,null],"p":[[3,"Game"]]}\
+}');
+if (window.initSearch) {window.initSearch(searchIndex)};

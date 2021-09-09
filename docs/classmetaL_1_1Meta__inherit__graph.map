@@ -1,0 +1,22 @@
+<map id="metaL.Meta" name="metaL.Meta">
+<area shape="rect" id="node3" href="$classmetaL_1_1Class.html" title="metaL.Class" alt="" coords="296,259,392,285"/>
+<area shape="rect" id="node4" href="$classmetaL_1_1Module.html" title="metaL.Module" alt="" coords="292,309,396,336"/>
+<area shape="rect" id="node2" href="$classmetaL_1_1Object.html" title="Object HyperGraph node = Marvin Minsky&#39;s Frame. " alt="" coords="5,284,105,311"/>
+<area shape="rect" id="node5" href="$classmetaL_1_1Mod.html" title="Project functional modificator. " alt="" coords="452,284,539,311"/>
+<area shape="rect" id="node21" href="$classmetaL_1_1Project.html" title="software project " alt="" coords="444,335,547,361"/>
+<area shape="rect" id="node6" href="$classmetaL_1_1Actix.html" title="Actix Web framework. " alt="" coords="612,5,704,32"/>
+<area shape="rect" id="node8" href="$classmetaL_1_1Django.html" title="Django project. " alt="" coords="607,56,709,83"/>
+<area shape="rect" id="node9" href="$classmetaL_1_1Forth.html" title="tiny Forth&#45;like interpreter " alt="" coords="612,107,704,133"/>
+<area shape="rect" id="node10" href="$classmetaL_1_1Game.html" title="Rust gaming. " alt="" coords="609,157,707,184"/>
+<area shape="rect" id="node11" href="$classmetaL_1_1Ini.html" title="empty project initialization " alt="" coords="620,208,696,235"/>
+<area shape="rect" id="node12" href="$classmetaL_1_1Java.html" title="metaL.Java" alt="" coords="613,259,703,285"/>
+<area shape="rect" id="node13" href="$classmetaL_1_1netCracker.html" title="metaL.netCracker" alt="" coords="595,309,721,336"/>
+<area shape="rect" id="node14" href="$classmetaL_1_1Python.html" title="metaL.Python" alt="" coords="607,360,709,387"/>
+<area shape="rect" id="node16" href="$classmetaL_1_1Rocket.html" title="Rocket.rs web framework " alt="" coords="606,411,710,437"/>
+<area shape="rect" id="node17" href="$classmetaL_1_1Rust.html" title="metaL.Rust" alt="" coords="613,461,703,488"/>
+<area shape="rect" id="node18" href="$classmetaL_1_1VEnv.html" title="extend Python project with venv (local interpreter &amp; libs) " alt="" coords="611,512,705,539"/>
+<area shape="rect" id="node19" href="$classmetaL_1_1WASM.html" title="Rust WASM target. " alt="" coords="606,563,710,589"/>
+<area shape="rect" id="node7" href="$classmetaL_1_1SCADA.html" title="SCADA/IoT platform. " alt="" coords="769,5,879,32"/>
+<area shape="rect" id="node15" href="$classmetaL_1_1metaL.html" title="metaL.metaL" alt="" coords="775,360,873,387"/>
+<area shape="rect" id="node20" href="$classmetaL_1_1Yew.html" title="Yew framework application. " alt="" coords="780,563,868,589"/>
+</map>

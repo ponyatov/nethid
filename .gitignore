@@ -2,7 +2,6 @@
 *.swp
 *.log
 
-/docs/
 /nethid/
 
 /__pycache__/

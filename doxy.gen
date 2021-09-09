@@ -1,9 +1,9 @@
 PROJECT_NAME           = "nethid"
-PROJECT_BRIEF          = "nethid"
+PROJECT_BRIEF          = "Virtual HID daemon (network remote control)"
 PROJECT_LOGO           = doc/logo.png
 OUTPUT_DIRECTORY       =
 WARN_IF_UNDOCUMENTED   = NO
-INPUT                  = README.md src metaL.py nethid.metaL.py
+INPUT                  = README.md src metaL.py nethid.metaL.py doc
 RECURSIVE              = YES
 USE_MDFILE_AS_MAINPAGE = README.md
 HTML_OUTPUT            = docs
