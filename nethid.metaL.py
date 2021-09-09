@@ -15,6 +15,7 @@ p = Project(
 
 * https://github.com/nmelihsensoy/virtual-hid-tcp
 ''') \
-    | Rust() | Game()
+    | Rust() \
+    | Game()
 
 p.sync()

@@ -1,1 +1,1 @@
-initSidebarItems({"constant":[["H",""],["W",""]],"fn":[["game_loop",""],["main","program entry point"]],"mod":[["test",""]],"struct":[["Game",""]]});
+initSidebarItems({"constant":[["H","default screen window height, pixels"],["W","default screen window width, pixels"]],"fn":[["game_loop","SDL/GUI event loop"],["main","program entry point"]],"struct":[["Screen","SDL screen state"]]});

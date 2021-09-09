@@ -90,7 +90,7 @@ $(RUSTUP):
 # / install
 
 # \ merge
-MERGE  = Makefile README.md .gitignore apt.dev apt.txt $(S)
+MERGE  = Makefile README.md .gitignore apt.dev apt.txt doxy.gen $(S)
 MERGE += .vscode bin doc lib src tmp
 
 .PHONY: ponymuck

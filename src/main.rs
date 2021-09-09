@@ -2,9 +2,9 @@
 
 // \ config
 // \ game
-// default screen window width
+/// default screen window width, pixels
 pub const W: u16 = 640;
-// default screen window height
+/// default screen window height, pixels
 pub const H: u16 = 480;
 // / game
 // / config
@@ -42,19 +42,28 @@ fn main() {
 // \ game
 
 #[allow(dead_code)]
-pub struct Game {
+/// SDL screen state
+pub struct Screen {
+    /// window title: program name from `argv[0]`
     pub argv: String,
+    /// current width, pixels
     pub w: u16,
+    /// current height, pixels
     pub h: u16,
+    /// SDL context
     pub sdl: sdl2::Sdl,
+    /// video subsystem context
     pub video: sdl2::VideoSubsystem,
+    /// SDL window state
     pub window: sdl2::video::Window,
+    /// window icon
     pub icon: sdl2::surface::Surface<'static>,
+    /// GUI events queue
     pub events: sdl2::EventPump,
     // pub canvas: sdl2::render::WindowCanvas,
 }
 
-impl Game {
+impl Screen {
     #[instrument]
     fn new(argv: String) -> Self {
         let context = sdl2::init().unwrap();
@@ -66,7 +75,7 @@ impl Game {
         let icon = sdl2::image::LoadSurface::from_file("doc/logo.png").unwrap();
         // let canvas = window.into_canvas().build().unwrap();
         let event_pump = context.event_pump().unwrap();
-        Game {
+        Screen {
             argv: argv,
             w: W,
             h: H,
@@ -79,8 +88,10 @@ impl Game {
     }
 }
 
+#[instrument]
+/// SDL/GUI event loop
 fn game_loop(argv: String) {
-    let mut game = Game::new(argv);
+    let mut game = Screen::new(argv);
     'event: loop {
         for event in game.events.poll_iter() {
             info!("{:?}", event);
